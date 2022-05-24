@@ -6,6 +6,8 @@ class SparseArray():
     def __setitem__(self,key,value):
         self.data[key] = value
 
+     #Реализация разреженного массива   
+        
 arr = SparseArray()
 arr[1] = 10
 arr[8] = 20
