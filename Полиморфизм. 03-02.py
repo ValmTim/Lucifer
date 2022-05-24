@@ -1,4 +1,4 @@
-class AmericanDate:
+class Date_in_Amerika:
 
     def __init__(self, y, m, d):
         self.y = y
@@ -40,7 +40,7 @@ class AmericanDate:
             return f'{self.get_month()}.0{self.get_day()}.{self.get_year()}'
 
 
-class EuropeanDate:
+class Date_in_Europe:
 
     def __init__(self, y, m, d):
         self.y = y
@@ -81,7 +81,7 @@ class EuropeanDate:
         if len(self.get_day()) == 1 and len(self.get_month()) > 1:
             return f'0{self.get_day()}.{self.get_month()}.{self.get_year()}'
 
-american = AmericanDate(2000, 4, 10)
-european = EuropeanDate(2000, 4, 10)
-print(american.format())
-print(european.format())
+American = Date_in_Amerika(2000, 4, 10)
+European = Date_in_Europe(2000, 4, 10)
+print(American.format())
+print(European.format())
