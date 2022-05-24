@@ -1,5 +1,6 @@
 import datetime
 
+#При вычитании дат возвращается число дней между ними
 
 class Date:
     def __init__(self, d1, d2):
