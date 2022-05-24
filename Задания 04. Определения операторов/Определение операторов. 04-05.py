@@ -5,6 +5,8 @@ class Point:
 
     def __eq__(self, other):
         return self.x == other.x and self.y == other.y
+    
+    #Координаты точек, true - если совпадают, false - если не совпадают
 
 p1 = Point(1, 2)
 p2 = Point(5, 6)
