@@ -3,6 +3,8 @@ class SquareFunction:
         self.a = a
         self.b = b
         self.c = c
+        
+        #Формула нахождения площади квадрата
 
     def __call__(self, x):
         return self.a * x ** 2 + self.b * x + self.c
